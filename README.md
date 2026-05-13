@@ -1,4 +1,4 @@
-# Open Lovable
+# Clone Craft
 
 Chat with AI to build React apps instantly. An example app made by the [Firecrawl](https://firecrawl.dev/?ref=open-lovable-github) team. For a complete cloud solution, check out [Lovable.dev](https://lovable.dev/) ❤️.
 
@@ -6,14 +6,7 @@ Chat with AI to build React apps instantly. An example app made by the [Firecraw
 
 ## Setup
 
-1. **Clone & Install**
-```bash
-git clone https://github.com/firecrawl/open-lovable.git
-cd open-lovable
-pnpm install  # or npm install / yarn install
-```
-
-2. **Add `.env.local`**
+1. **Add `.env.local`**
 
 ```env
 # =================================================================
@@ -55,7 +48,7 @@ VERCEL_OIDC_TOKEN=auto_generated_by_vercel_env_pull
 # E2B_API_KEY=your_e2b_api_key      # https://e2b.dev
 ```
 
-3. **Run**
+2. **Run**
 ```bash
 pnpm dev  # or npm run dev / yarn dev
 ```
